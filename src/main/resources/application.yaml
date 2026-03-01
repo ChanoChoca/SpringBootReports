@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: demo
+  jpa:
+    open-in-view: false
+
+app:
+  reports:
+    pdf-template: /reports/customer/customer_report_pdf.jasper
+    excel-template: /reports/customer/customer_report_excel.jasper

@@ -1,0 +1,16 @@
+spring:
+  # Edit your database connection here
+  datasource:
+    url: jdbc:mysql://mysql.default.svc.cluster.local:3306/customer?createDatabaseIfNotExist=true
+    username: root
+    password: chanochoca
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
